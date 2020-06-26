@@ -33,7 +33,7 @@
       <v-toolbar-title>Application</v-toolbar-title>
     </v-app-bar>
     <v-main>
-      <HelloWorld msg="Welcome to Your Vue.js App" />
+      <UI />
     </v-main>
     <v-footer
       color="indigo"
@@ -45,12 +45,12 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import UI from './components/UI.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    UI
   },
   props: {
     source: String,
