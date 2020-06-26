@@ -33,19 +33,7 @@
       <v-toolbar-title>Application</v-toolbar-title>
     </v-app-bar>
     <v-main>
-      <v-container
-        class="fill-height"
-        fluid
-      >
-        <v-row
-          align="center"
-          justify="center"
-        >
-          <v-col class="text-center">
-            <HelloWorld msg="Welcome to Your Vue.js App" />
-          </v-col>
-        </v-row>
-      </v-container>
+      <HelloWorld msg="Welcome to Your Vue.js App" />
     </v-main>
     <v-footer
       color="indigo"
